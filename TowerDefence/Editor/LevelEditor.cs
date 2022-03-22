@@ -128,8 +128,8 @@ namespace TowerDefence.Editor
 
             this.roadTileSet = TextureLoader.Load(tilesheetPath);
 
-            nodeTexture = TextureLoader.CreateCenteredCircleTexture(32, 32, 5, Color.Blue);
-            lineTexture = TextureLoader.CreateFilledRectangleTexture(1, 16, Color.Blue);
+            nodeTexture = TextureLoader.CreateCenteredCircleTexture(32, 32, 5, Color.Green);
+            lineTexture = TextureLoader.CreateFilledRectangleTexture(1, 16, Color.Green);
                        
 
             this.roadTextures = new Texture2D[16];
